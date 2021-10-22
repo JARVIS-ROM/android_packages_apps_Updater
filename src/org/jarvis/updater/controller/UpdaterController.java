@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.updater.controller;
+package org.jarvis.updater.controller;
 
 import android.content.Context;
 import android.content.Intent;
@@ -24,12 +24,12 @@ import android.util.Log;
 
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-import org.lineageos.updater.UpdatesDbHelper;
-import org.lineageos.updater.download.DownloadClient;
-import org.lineageos.updater.misc.Utils;
-import org.lineageos.updater.model.Update;
-import org.lineageos.updater.model.UpdateInfo;
-import org.lineageos.updater.model.UpdateStatus;
+import org.jarvis.updater.UpdatesDbHelper;
+import org.jarvis.updater.download.DownloadClient;
+import org.jarvis.updater.misc.Utils;
+import org.jarvis.updater.model.Update;
+import org.jarvis.updater.model.UpdateInfo;
+import org.jarvis.updater.model.UpdateStatus;
 
 import java.io.File;
 import java.io.IOException;

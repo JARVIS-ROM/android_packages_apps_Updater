@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.updater;
+package org.jarvis.updater;
 
 import android.content.Context;
 import android.content.Intent;
@@ -48,15 +48,15 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.snackbar.Snackbar;
 
-import org.lineageos.updater.controller.UpdaterController;
-import org.lineageos.updater.controller.UpdaterService;
-import org.lineageos.updater.misc.BuildInfoUtils;
-import org.lineageos.updater.misc.Constants;
-import org.lineageos.updater.misc.PermissionsUtils;
-import org.lineageos.updater.misc.StringGenerator;
-import org.lineageos.updater.misc.Utils;
-import org.lineageos.updater.model.UpdateInfo;
-import org.lineageos.updater.model.UpdateStatus;
+import org.jarvis.updater.controller.UpdaterController;
+import org.jarvis.updater.controller.UpdaterService;
+import org.jarvis.updater.misc.BuildInfoUtils;
+import org.jarvis.updater.misc.Constants;
+import org.jarvis.updater.misc.PermissionsUtils;
+import org.jarvis.updater.misc.StringGenerator;
+import org.jarvis.updater.misc.Utils;
+import org.jarvis.updater.model.UpdateInfo;
+import org.jarvis.updater.model.UpdateStatus;
 
 import java.io.File;
 import java.io.IOException;

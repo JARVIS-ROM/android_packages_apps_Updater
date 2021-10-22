@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.updater.misc;
+package org.jarvis.updater.misc;
 
 import android.Manifest;
 import android.app.Activity;
