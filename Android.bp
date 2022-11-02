@@ -41,15 +41,27 @@ android_app {
         proguard_flags_files: ["proguard.flags"],
     },
 
-    required: ["privapp_whitelist_jarvis.updater.xml"],
+    required: [
+        "privapp_whitelist_jarvis.updater.xml",
+        "default-permissions_jarvis.updater"
+    ],
 
 }
 
 prebuilt_etc {
-    name: "privapp_whitelist_jarvis.updater.xml",
+    name: "privapp_whitelist_jarvis.updater",
 
     system_ext_specific: true,
-    src: "privapp_whitelist_jarvis.updater.xml",
     sub_dir: "permissions",
+    src: "privapp_whitelist_jarvis.updater.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "default-permissions_jarvis.updater",
+    system_ext_specific: true,
+    sub_dir: "default-permissions",
+    src: "default-permissions_jarvis.updater.xml",
+    filename_from_src: true,
 
 }
